@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14490" started-at="2020-06-13T06:02:11Z" finished-at="2020-06-13T06:02:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14490" started-at="2020-06-13T06:02:11Z" finished-at="2020-06-13T06:02:25Z">
+      <class name="testClasses.EMICalculatorTest">
+        <test-method status="PASS" signature="emicalculator(java.util.Hashtable)[pri:0, instance:testClasses.EMICalculatorTest@25bbf683]" name="emicalculator" duration-ms="9585" started-at="2020-06-13T06:02:11Z" description="executes the complete test" data-provider="EMICalculatorTestData" finished-at="2020-06-13T06:02:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LoanTenure=1.0, InterestRate=9.5, WebPageURL=https://www.emicalculator.net, CarLoanAmount=1500000.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emicalculator -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testClasses.EMICalculatorTest@25bbf683]" name="flushReports" is-config="true" duration-ms="4553" started-at="2020-06-13T06:02:21Z" finished-at="2020-06-13T06:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- testClasses.EMICalculatorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
